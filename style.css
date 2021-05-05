@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+.header .boxes{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+    height:100vh;
+    margin:120px;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+}
+.boxes form{
+    margin-top: 1.5rem;
+}
+.box1,.box2{
+    padding: 50px;
+    height: 100%;
+}
+ .row1,.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.boxes .row1>div,.row2>div,.row3>div{
+    margin: 1.5rem 1rem;
+}
+.boxes .box1 h1{
+    color: #00ad5f;
+}
+.boxes input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    padding: 0.4rem 0;
+    margin: 1rem 0;
+    width:100%;
+}
+.boxes textarea{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    padding: 0.4rem 0;
+    margin: 1rem 0;
+    width:100%;
+}
+.boxes label{
+    color:#999 ;
+}
+.box2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://colorlib.com/etc/cf/ContactFrom_v17/images/bg-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.box2  .content{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #999;
+    margin: 1.5rem 0;
+}
+.box2 .contact{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #00ad5f;
+}
+.box2 .social i{
+    color: #ffffff;
+}
+.box2 .social{
+    display: flex;
+    margin: 2rem 0;
+}
+.box2  .description{
+    margin-left:1.5rem;
+}
+button{
+    margin-left:15px;
+    color: #ffffff;
+    background: #00ad5f;
+    padding:15px 30px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-size:1rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: all 300ms linear;
+}
+button:hover{
+    background-color: unset;
+    border: 2px solid #00ad5f;
+    color: #000;
+}
+.icons >.icon{
+    display: inline-block;
+    background-color: #00ad5f;
+    border-radius:50%;
+    padding: 0.8rem 1rem;
+    text-align: center;
+    margin:5rem 1rem;
+    cursor: pointer;
+    transition: all 2s linear;
+}
+.icons .icon :hover  {
+    transform: scale(1.2);
+}
